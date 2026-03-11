@@ -10,7 +10,7 @@ The design adapts to different screen sizes using **Tailwind's responsive utilit
 
 ---
 
-
+[live](https://amrithaamzz.github.io/Responsive-Landing-Page/)
 ![image](./image.png)
 
 ## 🚀 Features
