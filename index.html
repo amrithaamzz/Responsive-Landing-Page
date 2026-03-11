@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<title>website</title>
+</head>
+<body>
+    <div class="min-h-screen px-6 lg:px-24">
+        <nav class="flex justify-between items-center h-30">
+            <h1 class="text-8xl font-bold lg:text-5xl text-purple-950 bg-clip-text">
+             Logo
+             </h1>
+            <ul class="hidden lg:flex gap-8 text-gray-600 font-medium">
+                <li class="hover:text-black cursor-pointer">Home</li>
+                <li class="hover:text-black cursor-pointer">About</li>
+                <li class="hover:text-black cursor-pointer">Services</li>
+                <li class="hover:text-black cursor-pointer">Portfolio</li>
+                <li class="hover:text-black cursor-pointer">Pricing</li>
+            </ul>
+            <button class="hidden lg:block px-6 py-2 rounded-xl bg-purple-600 text-white font-medium shadow-md hover:scale-105 transition">
+                Contact Us
+            </button>
+            <div class="lg:hidden text-2xl text-indigo-600 cursor-pointer hover:scale-105 transition">
+                ☰
+            </div>
+        </nav>
+        <section class="flex flex-col lg:flex-row items-center justify-between mt-20 gap-16">
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-purple-950">
+                    We Help You <br>
+                    <span class="text-purple-700">Crush</span> Your <br>
+                    Competition
+                </h1>
+                <p class="mt-6 text-gray-600 text-lg  leading-8">
+                    Build trust to connect your brand to <br>
+                     billions of users and grow your revenue
+                     <br> through SEO.
+                </p>
+                <button class="mt-8 px-8 py-3 rounded-xl bg-purple-600 text-white font-medium shadow-lg hover:scale-105 transition">
+                    See our services
+                </button>
+            </div>
+            <div class="lg:w-1/2">
+                <img src="./image.png" 
+                class="w-full max-w-6xl mx-auto">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
